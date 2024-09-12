@@ -40,7 +40,7 @@ const resetFortune = () => {
     <img src="/darkgenie.jpg" alt="Genie" class="genie-image">
     <h2 class="Title">
       Ask the Fortune Teller</h2>
-    <link rel="icon" href="genieball.ico" type="image/x-icon">
+    <link rel="icon" href="genieball1.ico" type="image/x-icon">
     <p id="fortune">{{ fortuneMessage }}</p>
     <button @click="generateFortune">PRESS IF YOU DARE</button>
     <button @click="resetFortune">TRY AGAIN</button>
