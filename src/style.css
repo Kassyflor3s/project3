@@ -79,7 +79,7 @@ button:focus-visible {
 }
 
 body {
-  background-image: url("assets/smoke.jpg");
+  background-image: url("smoke.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
