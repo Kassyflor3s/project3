@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #2f2f2f;
+  background-color: #0a0a0a;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -28,26 +28,34 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-image: url("/smoke1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(0, 0, 0);
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 2.0em;
   line-height: 1.1;
+  margin-bottom: 10px;
+  color: rgb(213, 62, 62);
 }
 
 button {
   border-radius: 8px;
   border: 1px solid transparent;
-  padding: 0.6em 1.2em;
+  padding: 0.8em 1.5em;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #8c31d2;
   cursor: pointer;
+  margin: 5px;
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #ff00f2;
 }
 button:focus,
 button:focus-visible {
@@ -55,7 +63,7 @@ button:focus-visible {
 }
 
 .card {
-  padding: 2em;
+  padding: 3em;
 }
 
 #app {
@@ -67,65 +75,28 @@ button:focus-visible {
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
-    background-color: #ffffff;
+    color: #070707;
+    background-color: #000000;
   }
   a:hover {
     color: #747bff;
   }
   button {
-    background-color: #f9f9f9;
+    background-color: #2a3cc4;
   }
-}
-
-body {
-  background-image: url("smoke.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #010101;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50vh;
-  margin: 0;
 }
 
 .content {
   text-align: center;
-  background-color: #131412;
+  background-color: #353030;
   padding: 10px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-
-h1 {
-  margin-bottom: 10px;
-  font-size: 2em;
-  color: rgb(213, 62, 62);
-}
-
-button {
-  padding: 10px 20px;
-  background-color: rgb(103, 38, 144);
-  color: white;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-  font-size: 16px;
-  margin: 10px;
-  transition: background-color 0.3s ease;
-}
-
-button:hover {
-  background-color: purple;
 }
 
 #fortune {
   margin: 30px 0;
   font-size: 20px;
   font-style: italic;
-  color: #9faca5;
+  color: #aebfff;
 }

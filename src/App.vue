@@ -15,6 +15,7 @@ const fortunes = [
 ]
 
 const fortuneMessage = ref("Click the button to reveal your fortune.")
+const name = ref("")
 
 const generateFortune = () => {
   const randomIndex = Math.floor(Math.random() * fortunes.length)
@@ -31,7 +32,7 @@ const resetFortune = () => {
   <main class="app">
   
     <section class="greeting">
-      <h1 class="title">
+      <h1 class="Title">
         Welcome, <input type="text" placeholder="Enter Name" v-model="name">
       </h1>
     </section>
